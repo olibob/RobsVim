@@ -84,6 +84,7 @@ Bundle 'jiangmiao/auto-pairs'
 Bundle 'nvie/vim-togglemouse'
 Bundle 'vim-scripts/YankRing.vim'
 Bundle 'matthias-guenther/hammer.vim'
+Bundle 'Lokaltog/vim-easymotion'
 "Bundle 'Lokaltog/vim-easymotion'
 "Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 "Bundle 'tpope/vim-rails.git'
@@ -119,6 +120,7 @@ map <leader>t :TagbarToggle<CR>
 
 " Fugitive
 map <leader>gs :Gstatus<CR>
+map <leader>gl :Glog<CR>
 
 "CtrlP
 map <leader>p :CtrlP<CR>

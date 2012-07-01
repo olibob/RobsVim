@@ -23,6 +23,9 @@ Every time you yank something it goes into a buffer. after hitting p to paste, u
 ### [Hammer.vim](https://github.com/matthias-guenther/hammer.vim.git)
 Hammer is used to transform your markup language of choice to HTML, and open the transformed HTML in whatever your favorite browser is.
 
+### [vim-easymotion](https://github.com/Lokaltog/vim-easymotion.git)
+Must have, period!
+
 ## Code Plugins
 
 ### [Surround](https://github.com/tpope/vim-surround.git)
@@ -69,16 +72,16 @@ Loads of them ;)
 - mapleader is ","
 - Tagbar: ,t
 - Nerdtree: ,n
-- Fugitive: ,gs (git status)
+- Fugitive: ,gs (git status) ,gl (git log)
 - Togglemouse: <F10>
 - Hammer: ,h
 
 ## Mac OS X tips:
 
-- Install MacVim: brew install macvim (via homebrew)
-  Create an alias for the console vim: alias vi='mvim -v'
-- Install latest ctags for Tagbar: brew install ctags (via homebrew)
-- The markdown quicklook plugin [here](git://github.com/toland/qlmarkdown.git)
-- Sourctree (AppStore - Free)
-- Set up [Solarized color scheme](http://blog.likewise.org/2012/04/how-to-set-up-solarized-color-scheme.html) for iTerm2
+- Install [JewelryBox](http://unfiniti.com/software/mac/jewelrybox/) and get ruby 1.9.3
+- Install MacVim: brew install macvim (via homebrew). For console vim, I added alias vi='/Applications/MacVim.app/Contents/MacOS/Vim' to your *~/.bash_profile*.
+- Install latest ctags for Tagbar: brew install ctags (via homebrew).
+- The markdown quicklook plugin [here](git://github.com/toland/qlmarkdown.git).
+- Sourctree (AppStore - Free).
+- Set up [Solarized color scheme](http://blog.likewise.org/2012/04/how-to-set-up-solarized-color-scheme.html) for iTerm2.
 - Download [Menlo-Powerline Font](https://gist.github.com/1595572) and Powerline will work in 'fancy' mode just fine.
