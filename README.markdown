@@ -7,24 +7,21 @@ This setup is based on [vundle](https://github.com/gmarik/vundle.git) which is s
 
 
 ## Usefull plugins
+----------------------------------------------------------
 
 ### [Powerline](https://github.com/Lokaltog/vim-powerline.git)
-----------------------------------------------------------
 Powerline is a utility plugin which allows you to create better-looking, more functional vim statuslines.
 
 ### [SpeedDating](https://github.com/tpope/vim-speeddating.git)
------------------------------------------------------------
 Use CTRL-A/CTRL-X to increment dates, times, and more
 
 ## Code Plugins
 
 ### [Surround](https://github.com/tpope/vim-surround.git)
------------------------------------------------------
 Surround.vim is all about "surroundings": parentheses, brackets, quotes, XML tags, and more.
 The plugin provides mappings to easily delete, change and add such surroundings in pairs.
 
 ### [Tagbar](https://github.com/majutsushi/tagbar.git)
---------------------------------------------------
 Tagbar is a vim plugin for browsing the tags of source code files. It provides
 a sidebar that displays the ctags-generated tags of the current file, ordered
 by their scope. This means that for example methods in C++ are displayed under
@@ -55,11 +52,13 @@ Insert or delete brackets, parens, quotes in pair.
 
 
 ## Cosmetics
+----------------------------------------------------------
 
 ### [Vim-colorschemes](https://github.com/flazz/vim-colorschemes.git)
 Loads of them ;)
 
 ## Key mappings
+----------------------------------------------------------
 
 - mapleader is ","
 - Tagbar: <leader>t
@@ -67,6 +66,7 @@ Loads of them ;)
 - Fugitive: <leader>gs (git status)
 
 ## Mac OS X tips:
+----------------------------------------------------------
 
 - The markdown quicklook plugin [here](git://github.com/toland/qlmarkdown.git)
 - Sourctree (AppStore - Free)
