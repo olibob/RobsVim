@@ -26,6 +26,9 @@ Hammer is used to transform your markup language of choice to HTML, and open the
 ### [vim-easymotion](https://github.com/Lokaltog/vim-easymotion.git)
 Must have, period!
 
+### [ZoomWin](https://github.com/vim-scripts/ZoomWin.git)
+Zoom into and out of a split window/buffer
+
 ## Code Plugins
 
 ### [Surround](https://github.com/tpope/vim-surround.git)

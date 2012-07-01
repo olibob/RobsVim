@@ -85,7 +85,7 @@ Bundle 'nvie/vim-togglemouse'
 Bundle 'vim-scripts/YankRing.vim'
 Bundle 'matthias-guenther/hammer.vim'
 Bundle 'Lokaltog/vim-easymotion'
-"Bundle 'Lokaltog/vim-easymotion'
+Bundle 'vim-scripts/ZoomWin'
 "Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 "Bundle 'tpope/vim-rails.git'
 " vim-scripts repos
