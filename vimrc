@@ -80,6 +80,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-fugitive'
 Bundle 'kien/ctrlp.vim'
 Bundle 'ervandew/supertab'
+Bundle 'jiangmiao/auto-pairs'
 "Bundle 'Lokaltog/vim-easymotion'
 "Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 "Bundle 'tpope/vim-rails.git'
@@ -120,7 +121,5 @@ map <leader>gs :Gstatus<CR>
 "map <leader>p :CtrlP<CR>
 
 " Color scheme
-"set background=dark
-colorscheme molokai
-"colorscheme wombat256
-"let g:molokai_original = 1
+set background=dark
+colorscheme solarized
