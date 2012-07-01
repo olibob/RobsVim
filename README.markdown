@@ -12,7 +12,16 @@ This setup is based on [vundle](https://github.com/gmarik/vundle.git) which is s
 Powerline is a utility plugin which allows you to create better-looking, more functional vim statuslines.
 
 ### [SpeedDating](https://github.com/tpope/vim-speeddating.git)
-Use CTRL-A/CTRL-X to increment dates, times, and more
+Use CTRL-A/CTRL-X to increment dates, times, and more.
+
+### [Vim-togglemouse](https://github.com/nvie/vim-togglemouse.git)
+To toggle mouse focus between Vim and your terminal emulator, allowing terminal emulator mouse commands, like copy/paste.
+
+### [YankRing](https://github.com/vim-scripts/YankRing.vim.git)
+Every time you yank something it goes into a buffer. after hitting p to paste, use ctrl-p or ctrl-n to cycle through the paste options.
+
+### [Hammer.vim](https://github.com/matthias-guenther/hammer.vim.git)
+Hammer is used to transform your markup language of choice to HTML, and open the transformed HTML in whatever your favorite browser is.
 
 ## Code Plugins
 
@@ -58,11 +67,18 @@ Loads of them ;)
 ## Key mappings
 
 - mapleader is ","
-- Tagbar: <leader>t
-- Nerdtree: <leader>n
-- Fugitive: <leader>gs (git status)
+- Tagbar: ,t
+- Nerdtree: ,n
+- Fugitive: ,gs (git status)
+- Togglemouse: <F10>
+- Hammer: ,h
 
 ## Mac OS X tips:
 
+- Install MacVim: brew install macvim (via homebrew)
+  Create an alias for the console vim: alias vi='mvim -v'
+- Install latest ctags for Tagbar: brew install ctags (via homebrew)
 - The markdown quicklook plugin [here](git://github.com/toland/qlmarkdown.git)
 - Sourctree (AppStore - Free)
+- Set up [Solarized color scheme](http://blog.likewise.org/2012/04/how-to-set-up-solarized-color-scheme.html) for iTerm2
+- Download [Menlo-Powerline Font](https://gist.github.com/1595572) and Powerline will work in 'fancy' mode just fine.

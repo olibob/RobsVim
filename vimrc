@@ -28,12 +28,9 @@ filetype plugin on    " Enable filetype-specific plugins
 " syntax highlighting
 syntax on
 
-" enable mouse
-set mouse=a
-
 " Standard stuff
 set showmode							" always show what mode we're currently editing in
-set nowrap        				" don't wrap lines
+set nowrap								" don't wrap lines
 set tabstop=2     				" a tab is four spaces
 set backspace=indent,eol,start			" allow backspacing over everything in insert mode
 set autoindent						" always set autoindenting on
@@ -47,14 +44,17 @@ set smartcase							" ignore case if search pattern is all lowercase, case-sensi
 set smarttab							" insert tabs on the start of a line according to shiftwidth, not tabstop
 set hlsearch							" highlight search terms
 set incsearch							" show search matches as you type
-set history=1000         	" remember more commands and search history
-set undolevels=1000      	" use many muchos levels of undo
+set history=1000					" remember more commands and search history
+set undolevels=1000				" use many muchos levels of undo
 set wildignore=*.swp,*.bak,*.pyc,*.class
-set title                	" change the terminal's title
-set visualbell           	" don't beep
-set noerrorbells         	" don't beep
+set title									" change the terminal's title
+set visualbell						" don't beep
+set noerrorbells					" don't beep
 set nobackup
 set noswapfile
+
+" toggle to paste mode disabling all kind of vim smartness
+set pastetoggle=<F2>
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -81,6 +81,9 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'kien/ctrlp.vim'
 Bundle 'ervandew/supertab'
 Bundle 'jiangmiao/auto-pairs'
+Bundle 'nvie/vim-togglemouse'
+Bundle 'vim-scripts/YankRing.vim'
+Bundle 'matthias-guenther/hammer.vim'
 "Bundle 'Lokaltog/vim-easymotion'
 "Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 "Bundle 'tpope/vim-rails.git'
@@ -118,8 +121,16 @@ map <leader>t :TagbarToggle<CR>
 map <leader>gs :Gstatus<CR>
 
 "CtrlP
-"map <leader>p :CtrlP<CR>
+map <leader>p :CtrlP<CR>
 
 " Color scheme
 set background=dark
 colorscheme solarized
+
+" Togglemouse
+set mouse=a
+map <F10> :call <SNR>27_ToggleMouse()<CR>
+
+" Hammer
+let g:HAMMER_BROWSER_ARGS = '-g'
+map <leader>h :Hammer<CR>
