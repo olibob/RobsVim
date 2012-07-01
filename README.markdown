@@ -7,7 +7,6 @@ This setup is based on [vundle](https://github.com/gmarik/vundle.git) which is s
 
 
 ## Usefull plugins
-----------------------------------------------------------
 
 ### [Powerline](https://github.com/Lokaltog/vim-powerline.git)
 Powerline is a utility plugin which allows you to create better-looking, more functional vim statuslines.
@@ -52,13 +51,11 @@ Insert or delete brackets, parens, quotes in pair.
 
 
 ## Cosmetics
-----------------------------------------------------------
 
 ### [Vim-colorschemes](https://github.com/flazz/vim-colorschemes.git)
 Loads of them ;)
 
 ## Key mappings
-----------------------------------------------------------
 
 - mapleader is ","
 - Tagbar: <leader>t
@@ -66,7 +63,6 @@ Loads of them ;)
 - Fugitive: <leader>gs (git status)
 
 ## Mac OS X tips:
-----------------------------------------------------------
 
 - The markdown quicklook plugin [here](git://github.com/toland/qlmarkdown.git)
 - Sourctree (AppStore - Free)
