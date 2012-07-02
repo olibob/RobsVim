@@ -67,6 +67,8 @@ Insert or delete brackets, parens, quotes in pair.
 ### [Snipmate.vim](msanders/snipmate.vim)
 TextMate snippet clone
 
+### [gist-vim](https://github.com/mattn/gist-vim.git)
+vimscript for gist
 
 ## Cosmetics
 

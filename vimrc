@@ -87,6 +87,7 @@ Bundle 'matthias-guenther/hammer.vim'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'vim-scripts/ZoomWin'
 Bundle 'msanders/snipmate.vim'
+Bundle 'mattn/gist-vim'
 "Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 "Bundle 'tpope/vim-rails.git'
 " vim-scripts repos
