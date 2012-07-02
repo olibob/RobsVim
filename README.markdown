@@ -64,6 +64,9 @@ Supertab is a vim plugin which allows you to use <Tab> for all your insert compl
 ### [Auto-pairs](https://github.com/jiangmiao/auto-pairs.git)
 Insert or delete brackets, parens, quotes in pair.
 
+### [Snipmate.vim](msanders/snipmate.vim)
+TextMate snippet clone
+
 
 ## Cosmetics
 
