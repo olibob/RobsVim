@@ -88,6 +88,7 @@ Bundle 'Lokaltog/vim-easymotion'
 Bundle 'vim-scripts/ZoomWin'
 Bundle 'msanders/snipmate.vim'
 Bundle 'mattn/gist-vim'
+Bundle 'mattn/webapi-vim'
 "Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 "Bundle 'tpope/vim-rails.git'
 " vim-scripts repos
@@ -138,3 +139,7 @@ map <F10> :call <SNR>27_ToggleMouse()<CR>
 " Hammer
 let g:HAMMER_BROWSER_ARGS = '-g'
 map <leader>h :Hammer<CR>
+
+" Gist.vim
+let g:gist_clip_command = 'pbcopy'
+let g:gist_detect_filetype = 1
