@@ -56,6 +56,12 @@ set noswapfile
 " toggle to paste mode disabling all kind of vim smartness
 set pastetoggle=<F2>
 
+" Preview in browser
+:map <leader>b :!open -g %<CR><CR>
+
+" Run with ruby
+:map <leader>r :!ruby %<CR>
+
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
@@ -89,6 +95,7 @@ Bundle 'vim-scripts/ZoomWin'
 Bundle 'msanders/snipmate.vim'
 Bundle 'mattn/gist-vim'
 Bundle 'mattn/webapi-vim'
+Bundle 'mattn/zencoding-vim'
 "Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 "Bundle 'tpope/vim-rails.git'
 " vim-scripts repos
@@ -143,3 +150,6 @@ map <leader>h :Hammer<CR>
 " Gist.vim
 let g:gist_clip_command = 'pbcopy'
 let g:gist_detect_filetype = 1
+
+" zencoding
+let g:user_zen_expandabbr_key = '<leader>;'
